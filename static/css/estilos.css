@@ -1,0 +1,19 @@
+/* Estilos personalizados complementarios a Bootstrap */
+body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Transición suave para las tarjetas */
+.card {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+}
+
+/* Ajuste de botones en la tabla */
+.table .btn-sm {
+    padding: 0.25rem 0.6rem;
+    font-size: 0.8rem;
+}
