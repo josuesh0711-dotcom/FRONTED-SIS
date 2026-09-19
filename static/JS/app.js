@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const totalGeneral = document.getElementById("totalGeneral");
     const alerta = document.getElementById("alertaMensaje");
     
-    const API_URL = "http://localhost:8080/api/productos";
+    const API_URL = "backend-sistema-production.up.railway.app";
 
     window.mostrarProductos = async function () {
         if (!tabla) return;
